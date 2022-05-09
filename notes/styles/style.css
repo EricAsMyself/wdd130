@@ -1,0 +1,33 @@
+.big{
+    font-size: 2em;
+}
+
+.image{
+    width: 350px;
+    float: right;
+    border-radius: 10px;
+}
+
+#margins{
+    margin: 20px 50px;
+}
+
+#blueparagraph{
+    font-size: 3em;
+    background-color: blue;
+    text-align: center;
+}
+
+section{
+    background-color: lightgray;
+    padding: 15px;
+    margin: 50px;
+    border:2px;
+    border-color: black;
+    border-style:groove;
+    border-radius: 5px;
+}
+
+.header{
+    color: orange;
+}
