@@ -1,0 +1,67 @@
+body {
+    background-color: pink;
+}
+h1{
+    font-size: 50px;
+}
+#education:hover{
+    color:white;
+
+}
+#box{
+    font-size: 20px;
+    margin: 100x, 10px, 10px, 10px;
+    color: white;
+    text-align: center;
+}
+.quote{
+    color: white;
+    inline-size: 600px;
+    text-align: center;
+    margin: auto;
+    
+}
+#center{
+    text-align: center;
+}
+.white_text{
+    color:white;
+}
+
+.middle_screen{
+    text-align: center;
+
+}
+
+.list{
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+footer {
+    font-size: 0.5em;
+    text-align: center;
+    width: 300px;
+    /* margin-left: */
+    /* line-height: 0em;
+    font-size:0.5em; */
+}
+
+#pres {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:300px;
+    /* margin:auto */
+}
+
+#quote2{
+    color: white;
+    text-align: center;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.6em;
+    font-weight: 100;
+}
