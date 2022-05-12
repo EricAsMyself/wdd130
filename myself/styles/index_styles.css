@@ -1,10 +1,32 @@
 body{
     background-color: #f1faee;
 }
+#welcome{
+    text-align: center;
+}
+#welcome:hover{
+    color:#457B9D;
+    text-align: center;
+}
+.button_bar{
+    background-color: #1D3557;
+    height: 50px;
+}
+.button{
+    margin: auto;
+    color:#f1faee;
+}
+.button:hover{
+    background-color: #457B9D;
+    height: 50px;
+}
 .text{
     color: #1D3557;
 }
 .line{
     border-color: #1D3557;
     border-style: solid;
+}
+.social{
+    text-align: center
 }
