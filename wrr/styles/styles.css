@@ -8,6 +8,7 @@ nav a{
     background-color: black;
     color: #d9c2a3;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -16,6 +17,7 @@ nav a{
     text-align: center;
 }
 main section{
+    box-sizing: border-box;
     text-align: center;
 }
 #background {
@@ -23,7 +25,10 @@ main section{
 }
 
 body{
+    
     background-color:  #FFC906;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #008CD1;
@@ -34,9 +39,13 @@ nav a:hover{
     color: black;
 }
 .book, .join{
+    padding: 15px 30px;
+    font-size: 18px;
     background-color: #CB2026;
     color: white;
     text-decoration: none;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #008CD1;
@@ -46,14 +55,22 @@ nav a:hover{
     background-color: #CB2026;
 }
 .msg{
+    font-family: 'Koulen', cursive;
     background-color: #CB2026;
+    padding: 35px;
 }
 footer{
     background-color: #F4801F;
     color: blueviolet;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 .home-title{
+    font-family: 'Koulen', cursive;
     color: #008CD1;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #008CD1;
@@ -62,7 +79,9 @@ h4{
     color: #008CD1;
 }
 .msg p{
+    font-size: 8em;
     color: #008CD1;
+    padding-bottom: 15px;
 }
 footer h3{
     color: #008CD1;
@@ -79,13 +98,37 @@ footer a:hover{
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
 }
+h2{
+    font-family: 'Koulen', cursive;
+}
+#logo_link{
+   padding-top: 5px;
+}
+.social{
+    padding-top: 15px;
+}
+img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+   margin: 200px 0;
+}
+.card-img{
+    border:10px;
+    border-style: solid;
 
+}
+/* Heading Font: [Koulen]     font-family: 'Koulen', cursive;
+Paragraph Font: [Montserrat]  font-family: 'Montserrat', sans-serif; */
 
 /* --primary-color: #CB2026   ;
 --secondary-color: #FFC906 ;
 --accent1-color: #008CD1;
 --accent2-color: #F4801F; */
+
+
