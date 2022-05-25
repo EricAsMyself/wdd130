@@ -1,3 +1,35 @@
-body{
-    background-color: blue;
+section{
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
+img{
+    grid-row: 1;
+    grid-column: 1
+}
+
+#cherries{
+    grid-row: 1;
+    grid-column: 2;
+    /* background-color: lightgray; */
+    color: rgb(159, 0, 0);
+    font-size: 5em;
+    margin: auto  auto 2em auto;
+    letter-spacing: 10px;
+
+}
+#empty{
+    grid-row: 1;
+    grid-column: 2;
+    background-color: lightgray;
+
+}
+
+
+.centered {
+    grid-row: 1;
+    grid-column: 1/-1;
+    font-size: 7em;
+    letter-spacing: 10px;
+    font-family: "Times New Roman", Times, serif;
+    margin: 2em auto auto auto;
+  }
