@@ -1,0 +1,103 @@
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    background-color: rgb(231, 231, 231);
+}
+.name{
+    font-size: .8em;
+    padding-left: 100px;
+    color: gray;
+
+}
+
+.small-blue{
+    font-size: .8em;
+    color: rgb(0, 91, 122);
+    text-align: center;
+}
+#card{
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 5%;
+    background-color: white;
+}
+.logo{
+    margin: 10px 0px 0px 10px;
+}
+#small-words{
+    font-size: .8em;
+    color: gray;
+    
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.bos{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+.arrive{
+    margin-top: 20px;
+    font-size: .5em;
+    text-align: center;
+}
+.sm-bos{
+    margin-bottom: 20px;
+    font-size: .5em;
+    text-align: center;
+}
+.den{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+.depart{
+    margin-top: 20px;
+    font-size: .5em;
+    text-align: center;
+}
+.sm-denver{
+    margin-bottom: 20px;
+    font-size: .5em;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(243, 240, 240);
+}
+h1{
+    font-size: 10px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.denver{
+    background-color: #001b36;
+    text-align: center;
+}
+
+#small-footer{
+    text-align: center;
+    color: grey;
+    font-size: 0.8em;
+    margin: 25px auto 35px auto;
+}
+
+#barcode{
+    padding-left:25%;
+    padding-top: 5%;
+}
+#plane{
+    margin:48px auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
