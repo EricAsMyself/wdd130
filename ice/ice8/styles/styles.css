@@ -92,8 +92,9 @@ p{
 }
 
 #barcode{
-    padding-left:25%;
-    padding-top: 5%;
+ text-align: center;
+    /* padding-left:25%;
+    padding-top: 5%; */
 }
 #plane{
     margin:48px auto;
