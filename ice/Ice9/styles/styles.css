@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(63, 63, 63);
+    background-color: #1e1e1e;
     display: grid;
     grid-template-columns: 1fr 280px 1fr;
     grid-template-rows: .1fr 1fr 1fr;
@@ -50,7 +50,7 @@ footer{
     color: white;
     text-align: center;
     font-size: 20px;
-    margin:  20px auto 5px;
+    margin:  10px auto 5px;
 }
 .smaller{
     color: white;
