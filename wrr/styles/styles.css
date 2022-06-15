@@ -3,6 +3,9 @@
     /* background-color: blue; */
     margin: 0 auto;
 }
+#logo-size{
+    width: 7em;
+}
 nav a{
     /* display: flex;
     justify-content: space-around; */
@@ -10,7 +13,7 @@ nav a{
     background-color: black;
     color: #d9c2a3;
     text-decoration: none;
-    padding: 35px;
+    padding: 3em 11%;
 }
 nav {
     display: flex;
@@ -42,6 +45,12 @@ main section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.for-thrills{
+    padding: 30px;
+    background-color: #008CD1;
+    grid-column: 6/8;
+    grid-row: 6;
+}
 body{
     
     background-color:  #FFC906;
@@ -49,9 +58,10 @@ body{
     padding: 0;
 }
 header{
+    opacity: 0.8;
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #008CD1;
+    background-color: black;
 }
 
 nav a:hover{
@@ -155,7 +165,7 @@ h2{
     padding-top: 15px;
 }
 img{
-    padding-top: 15px;
+    /* padding-top: 15px; */
 }
 .rivers-card{
     margin: 200px 0;
@@ -230,6 +240,7 @@ img{
     footer {
         margin-top: 25px;
     }
+
 }
   
 /* Heading Font: [Koulen]     font-family: 'Koulen', cursive;
