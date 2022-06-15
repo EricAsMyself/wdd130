@@ -141,6 +141,7 @@ footer a:hover{
     z-index: -1;
 }
 #hero-img{
+    grid-row: 1;
     width: 100%;
 }
 #hero-msg h4 {
