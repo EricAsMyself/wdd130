@@ -201,6 +201,32 @@ img{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+
+.small-grid-left{
+    margin: 5em;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-column-gap: 20px;
+}
+.small-grid-right{
+    margin: 5em;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+.left{
+    grid-column: 1;
+    grid-row: 2;
+}
+.right{
+    grid-column: 2;
+    grid-row: 2;
+    size: 100%;
+}
+
+.subimages{
+    width: 100%;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -241,6 +267,7 @@ img{
     footer {
         margin-top: 25px;
     }
+
 
 }
   
