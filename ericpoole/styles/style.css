@@ -54,7 +54,7 @@ input:checked + label .drop-down{
 .drop-down{
     display: none;
 }
-#whitewords{
+.whitewords{
     margin: 1em 10%;
     font-size: 2em;
     color: white;
@@ -69,11 +69,11 @@ input:checked + label .drop-down{
 #slow{
     transition-timing-function: ease-in-out;
 }
-#largeimg{
+.largeimg{
     width: 80%;
     margin: auto;
 }
-#pleft{
+.pleft{
     font-size: 2em;
     justify-content: center;
     grid-column: 1/3;
@@ -87,7 +87,7 @@ input:checked + label .drop-down{
     padding: 2em;
     background-color: lightgray;
 }
-.boat{
+#boat{
     grid-row: 2;
 }
 footer{
