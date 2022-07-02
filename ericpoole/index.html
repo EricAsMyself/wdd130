@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +12,9 @@
     <header>
         <input type="checkbox" id="checkbox" />
         <label class="burger" for="checkbox">
-            <div id="slow" class="line top"></div>
-            <div id="slow" class="line bottom"></div>
+            <i class="fa-solid fa-bars" id="menu-bar"></i>
+            <!-- <div id="slow" class="line top"></div> -->
+            <!-- <div id="slow" class="line bottom"></div> -->
             <img src="images/logo.jpeg" alt="Logo">
             <nav class="drop-down">
                 <a id="whitewords" href="index.html">Home</a>
@@ -22,28 +24,32 @@
             </nav>
         </label>
     </header>
-    <main>
-        <div>
-            <img src="" alt="">
-            <P></P>
-        </div>
-        <div>
-            <P></P>
-            <img src="" alt="">
-        </div>
-        <div>
-            <img src="" alt="">
-            <P></P>
-        </div>
+    <main class="p-img-grid">
+            <P id="pleft">
+                My Name is Eric Poole and I am currently studying computer science at Brigham Young University Idaho. I’m proficient in Python as long C# and website building, I built this website and have a basic understanding of html, along with css.  Among computer programing languages I also know American Sign Language, and can hold conversations in ASL.</P>
+                <img src="images/19095.JPEG" alt="image for homepage" id="largeimg">
+                
+                <P id="pright">        How can I help your company?
+                Strong Team Player.
+                Studies program on their own.
+                Helpful, and teachable.
+                Can be a leader or a follower.
+                Punctual and on time.
+                I have a strong volunteering presence, I have worked with libraries, and day camps, to help bring books, and fun to people who need it.
+        </P>
+            <img src="images/26123.JPEG" alt="image for homepage" id="largeimg" class="boat">
+            
+            <P id="pleft">How can I help your company?
+                Your company, I don’t know what your company will be doing, however I do know that I will be punctual, friendly, a team player, and easy to teach. Because this is how most of my past job experiences have been like. The people that don’t like me usually I like to talk to and ask how I can better help them, even if they aren’t a huge fan of my personality, we can still get along.
+        </P>
+        <img src="images/company.jpg" alt="Company" id="largeimg">
     </main>
     <footer>
-        <nav>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-        </nav>
+            <a href="" class="icons"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            <a href="" class="icons"><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
+            <a href="" class="icons"><i class="fa-brands fa-github fa-2xl"></i></a>
         <p></p>
-        <a href="site-plan.html">Site plan</a>
+        <a id="bottom-left" href="site-plan.html">Site plan</a>
     </footer>
 </body>
 </html>
