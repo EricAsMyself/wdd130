@@ -55,6 +55,7 @@ input:checked + label .drop-down{
     display: none;
 }
 .whitewords{
+  font-family: 'Poppins', sans-serif;
     margin: 1em 10%;
     font-size: 2em;
     color: white;
@@ -207,4 +208,15 @@ footer{
 .text-subpage{
   font-size: 1.5em;
   background-color: rgb(224, 224, 224);
+  font-family: 'Montserrat', sans-serif;
+}
+.aboutmegrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imageaboutme{
+  grid-row: 2fr;
+  grid-column: 3fr;
+  width: 100%;
 }
