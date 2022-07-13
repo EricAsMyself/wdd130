@@ -216,7 +216,7 @@ footer{
 }
 
 .imageaboutme{
-  grid-row: 2fr;
-  grid-column: 3fr;
+  grid-row: 2;
+  grid-column: 3;
   width: 100%;
 }
